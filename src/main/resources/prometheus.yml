@@ -1,0 +1,18 @@
+# my global config
+global:
+  scrape_interval: 2s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 2s # Evaluate rules every 15 seconds. The default is
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+
+scrape_configs:
+  - job_name: 'Spring Boot Application input'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 2s
+    scheme: https
+    static_configs:
+      - targets: ['192.168.56.1:8443']
+        labels:
+          application: 'My Spring Boot Application'
+    tls_config:
+      insecure_skip_verify: true
