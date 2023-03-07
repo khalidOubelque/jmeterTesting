@@ -8,5 +8,5 @@ management:
   endpoints:
     web:
       exposure:
-        include: prometheus,health,info,metric
+        include: prometheus,health,info,metric,beans
 
