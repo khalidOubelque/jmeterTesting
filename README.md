@@ -6,3 +6,7 @@ I will demonstrate how a Spring Boot web application can be monitored using Micr
 Also i will do some performance testing using Jmeter.
 
 Read full article https://shootskill.wordpress.com/monitoring-spring-boot-application-with-micrometer-prometheus-and-grafana-using-custom-metrics/
+
+
+# I did it on purpose OutOfMemoryError
+https://shootskill.wordpress.com/spring-boot-tutorial/outofmemoryerror/
