@@ -1,8 +1,12 @@
 server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
   ssl:
     key-store: classpath:example.jks
     key-store-password: password
   port: 8443
+
 
 management:
   endpoints:
