@@ -10,3 +10,5 @@ Read full article https://shootskill.wordpress.com/monitoring-spring-boot-applic
 
 # I did it on purpose OutOfMemoryError
 https://shootskill.wordpress.com/spring-boot-tutorial/outofmemoryerror/
+
+https://shootskill.wordpress.com/spring-boot-tutorial/tomcat-current-worker-threads-and-current-connections/
